@@ -23,6 +23,17 @@ body {
 	overflow: auto;
 }
 
+/* Link Styles */
+
+a:hover {
+	opacity: 0.2
+}
+
+a:visited {
+	color: inherit;
+}
+
+
 /* Nav Styles */
 .top-section {
 	background: #FAFAFA;
@@ -80,6 +91,22 @@ ul {
 	margin-top: 10px;
 }
 
+/* Skills Styles */
+
+.skills-image {
+	width: 70%;
+	padding-top: 20px;
+}
+
+.skills-section-text {
+	color: #606060;
+	font-size: 18px;
+}
+
+.skills-section {
+	background: #CDCDCD;
+}
+
 /* Contact Styles */
 
 .contact-section {
@@ -127,7 +154,7 @@ footer {
 }
 
 .student-name {
-	color: #3B3B3B;
+	color: #0097D7;
 	font-size: 30px;
 	font-weight: bold;
 	background: none;
@@ -209,7 +236,6 @@ p {
 }
 	
 .student-name {
-	color: #3B3B3B;
 	font-size: 30px;
 	font-weight: bold;
 	background: none;
@@ -364,7 +390,6 @@ footer {
 @media (min-width: 1024px) {
 	
 .student-name {
-	color: #3B3B3B;
 	font-size: 30px;
 	font-weight: bold;
 	background: none;
