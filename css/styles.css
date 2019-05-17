@@ -60,13 +60,10 @@ ul {
 
 
 /* Portfolio Styles */
-main {
-	padding: 0 15px;
-	background: #FFFFFF;
-}
+
 .portfolio-section {
 	background: #FFF;
-	padding: 45px 0px 25px 0px;
+	padding: 45px 15px 25px 15px;
 	width: 100%;
 }
 
@@ -86,14 +83,15 @@ main {
 /* Contact Styles */
 
 .contact-section {
-	padding: 35px 0 20px 0;
+	padding: 35px 15px 20px 15px;
+	background-color: #FAFAFA;
 }
 
 .contact-section:after {
 	content: "";	
 	display: block;
 	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 	padding-top: 20px;
 	border-bottom: 1px solid;
 	border-color: #E4E4E4;
@@ -115,71 +113,53 @@ main {
 }
 
 .contact-section li {
-	padding-bottom: 0px;
+	padding-bottom: 10px;
 }
 
 /* Footer Styles */
 footer {
 	background: #FAFAFA;
-	padding: 15px;
-}
-.footer-nav li {
-	display: inline;
+	padding: 0 15px 15px 15px;
 }
 
 .footer-nav {
-	vertical-align: middle;
+	display:none;
 }
-
-.student-name-footer {
-	float: left;
-	padding-left: 20px
-}
-
-.footer-link {
-	float: right;
-	padding-right: 20px;
-	font-size: 14px;
-	text-transform: uppercase;
-	font-weight: 900;
-	color: #3B3B3B;
-}
-
-.footer-link a {
-	text-decoration: none;
-	vertical-align: middle;
-}
-
-ul,
-.nav {
-	margin: 10px 0 10px 0;
-}
-
-.main-nav.bottom-nav li {
-	display: none;
-}	
-
-	
-.footer-nav ul.nav {
-		display: none;
-}
-
-/* Text Styles */
 
 .student-name {
 	color: #3B3B3B;
 	font-size: 30px;
 	font-weight: bold;
-	background-color: none;
+	background: none;
+	display: inline-block;
+	
 }
 
 .student-name-footer {
-	text-align: left;
 	color: #3B3B3B;
-	font-size: 17px;
+	font-size: 30px;
 	font-weight: bold;
-	background-color: none;
+	background: none;
+	display: inline-block;
+	float: left;
 }
+
+
+.top-link {
+	color: #3B3B3B;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	background: none;
+	display: inline-block;
+	float: right;
+}
+
+.top-link a {
+	text-decoration: none;
+}
+
+/* Text Styles */
 
 h2 {
 	color: #3B3B3B;
@@ -207,7 +187,7 @@ p {
 
 /* Media Queries */
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
 		
 	.main-nav li a {
 	font-size: 15px;
@@ -226,6 +206,15 @@ p {
 	padding: 0;
 	margin: 0 auto;
 	width: 15%;
+}
+	
+.student-name {
+	color: #3B3B3B;
+	font-size: 30px;
+	font-weight: bold;
+	background: none;
+	display: inline-block;
+	float: none;
 }
 	
 /* About Styles */
@@ -255,13 +244,10 @@ ul,
 }
 
 /* Portfolio Styles */
-main {
-	padding: 0 15px;
-	background: #FFFFFF;
-}
+
 .portfolio-section {
 	background: #FFF;
-	padding: 45px 0px 25px 0px;
+	padding: 45px 15px 25px 15px;
 	width: 100%;
 }
 
@@ -292,14 +278,14 @@ main {
 /* Contact Styles */
 
 .contact-section {
-	padding: 35px 0 20px 0;
+	padding: 35px 35px 20px 35px;
 }
 
 .contact-section:after {
 	content: "";	
 	display: block;
 	margin: 0 auto;
-	width: 95%;
+	width: 100%;
 	padding-top: 20px;
 	border-bottom: 1px solid;
 	border-color: #E4E4E4;
@@ -327,53 +313,193 @@ main {
 	
 /*Footer Navigation*/
 	
-.main-nav.bottom-nav li a {
-	font-size: 18px;
+.student-name-footer {
+	color: #3B3B3B;
+	font-size: 30px;
+	font-weight: bold;
+	background: none;
+	display: inline-block;
+	float: left;
+}	
+	
+.top-link {
+	color: #3B3B3B;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+	background: none;
+	display: none;
+	float: right;
+}	
+	
+.footer-nav {
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 900;
+	text-decoration: none;
+	color: #3B3B3B;
+	display: block;
+	padding: 12px 10px;
+	width: 50%;	
+	float: right;
+	text-align: right;
+}	
+
+	.footer-nav li {
+	display: inline-block;
+	padding: 0 0 0 30px;
+}
+	
+.footer-nav li a {
+ text-decoration: none;
+}
+	
+footer {
+	background: #FAFAFA;
+	padding: 0 35px 15px 35px;
+}	
+
+}
+
+@media (min-width: 1024px) {
+	
+.student-name {
+	color: #3B3B3B;
+	font-size: 30px;
+	font-weight: bold;
+	background: none;
+	display: inline-block;
+	float: left;
+}
+
+	.main-nav li a {
+	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 900;
 	text-decoration: none;
 	color: #3B3B3B;
 	background-color: #FAFAFA;
-}
-.main-nav.bottom-nav li {
 	display: inline-block;
+	padding: 0;
+	margin: 0 auto;
+	width: auto;
+}
+	.main-nav li {
+	display: inline-block;
+	padding: 0 0px 0 40px;
+	margin: 0;
+	width: auto;
+    text-align: right;	
+}
+	
+	.main-nav {
+	padding: 0;
+	width: 50%;	
 	float: right;
-	padding-right: 20px;
-	font-size: 14px;
-	text-transform: uppercase;
-	font-weight: 900;
-	color: #3B3B3B;
-}	
-
-	.bottom-nav {
-		margin-top: -60px;
+	text-align: center;
+	margin-top: 20px;
+	vertical-align: middle;
 	}
 	
-.footer-nav li.footer-link {
-		display: none;
+
+	ul, .nav {
+		margin-bottom: 0;
+		padding-right: 0;
+		text-align: right;
+	}
+	
+.top-section {
+	background: #FAFAFA;
+	padding: 20px 50px 55px 50px;
 }
 	
-.footer-nav ul.nav {
-	margin: 10px 0 0 0;
-}	
-	
-.student-name-footer {
-	float: left;
+.about-section {
+	color: #606060;
 	text-align: left;
-	color: #3B3B3B;
-	font-size: 19px;
-	font-weight: bold;
-	background-color: none;
-	display: inline;
-}
+	font-size: 21px;
+	float: left;
+	width: 52%;
+}			
 
-	.footer-width {
-		width: 30%;
-	}
+.profile-image {
+	width: 45%;
+	padding-top: 55px;
+	float: right;
+}
 	
+.portfolio-section {
+	background: #FFF;
+	padding: 50px 15px 25px 15px;
+	width: 95%;
+	margin: 0 auto;
+}	
+	
+.portfolio-item {
+		display: inline-block;
+		width: 33%;
+		margin-right: -5px;
+		margin-left: -5px;
+		vertical-align: top;
+		margin-bottom: 35px;		
+}	
+	
+	main {
+		background-color: #FAFAFA;
+	}	
+	
+.contact-paragraph {
+	color: #606060;
+	font-size: 21px;
+	padding: 0 100px 30px 100px;
+	width: 76%;
+	margin: 0 auto;
+}
+	
+.contact-section li {
+	padding-bottom: 15px;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+}
+		
+.contact-section ul {
+	color: #606060;
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+	
+.contact-section:after {
+	content: "";	
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding-top: 20px;
+	border-bottom: 1px solid;
+	border-color: #E4E4E4;
+}	
+	
+.contact-section {
+	padding: 35px 40px 20px 40px;
+}	
+	
+footer {
+	padding: 0 40px 15px 40px;
+}	
+	
+	.footer-nav li {
+	display: inline-block;
+	padding: 0 0 0 30px;
+}	
+	
+.footer-nav {
+	padding: 12px 0;
+}		
+
 }
 
-    
+
+
+
 
 
 
