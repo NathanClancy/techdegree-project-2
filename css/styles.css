@@ -158,6 +158,12 @@ ul,
 .main-nav.bottom-nav li {
 	display: none;
 }	
+
+	
+.footer-nav ul.nav {
+		display: none;
+}
+
 /* Text Styles */
 
 .student-name {
@@ -321,7 +327,7 @@ main {
 	
 /*Footer Navigation*/
 	
-	.main-nav.bottom-nav li a {
+.main-nav.bottom-nav li a {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -329,7 +335,7 @@ main {
 	color: #3B3B3B;
 	background-color: #FAFAFA;
 }
-	.main-nav.bottom-nav li {
+.main-nav.bottom-nav li {
 	display: inline-block;
 	float: right;
 	padding-right: 20px;
@@ -338,6 +344,11 @@ main {
 	font-weight: 900;
 	color: #3B3B3B;
 }	
+
+	.bottom-nav {
+		margin-top: -60px;
+	}
+	
 .footer-nav li.footer-link {
 		display: none;
 }
@@ -345,7 +356,20 @@ main {
 .footer-nav ul.nav {
 	margin: 10px 0 0 0;
 }	
+	
+.student-name-footer {
+	float: left;
+	text-align: left;
+	color: #3B3B3B;
+	font-size: 19px;
+	font-weight: bold;
+	background-color: none;
+	display: inline;
+}
 
+	.footer-width {
+		width: 30%;
+	}
 	
 }
 
