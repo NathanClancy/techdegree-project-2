@@ -25,6 +25,10 @@ body {
 
 /* Link Styles */
 
+a {
+	color: #222;
+}
+
 a:hover {
 	opacity: 0.2
 }
@@ -93,6 +97,10 @@ ul {
 
 /* Skills Styles */
 
+.skills-section h2 {
+	padding-bottom: 0;
+}
+
 .skills-image {
 	width: 70%;
 	padding-top: 20px;
@@ -104,7 +112,9 @@ ul {
 }
 
 .skills-section {
-	background: #CDCDCD;
+	background: #FFF;
+	padding: 0px 15px 45px 15px;
+	width: 100%;
 }
 
 /* Contact Styles */
@@ -300,6 +310,27 @@ ul,
 		margin-bottom: 35px;
 			
 }	
+
+/* Skills Styles */
+
+.skills-image {
+	width: 40%;
+	padding-top: 20px;
+}
+
+.skills-section-text {
+	color: #606060;
+	font-size: 21px;
+	padding: 0 100px 0 100px;
+}
+
+.skills-section {
+	background: #FFF;
+	padding: 0px 15px 45px 15px;
+	width: 100%;
+}
+	
+	
 	
 /* Contact Styles */
 
@@ -471,6 +502,14 @@ footer {
 	main {
 		background-color: #FAFAFA;
 	}	
+	
+.skills-section {
+background: #FFF;
+padding: 50px 15px 25px 15px;
+width: 95%;
+margin: 0 auto;
+margin-top: 20px;
+}	
 	
 .contact-paragraph {
 	color: #606060;
